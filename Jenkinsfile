@@ -3,8 +3,9 @@ pipeline {
         stages {  
        	    stage("git_checkout") {  
            	    steps {  
-              	    echo "cloning repository" 
-              	    echo "repo cloned successfully"  
+              	    echo "cloning is a  repository" 
+              	    echo "repo cloned successfully"
+		    echo "repo java file started"
               	    }  
          	    } 
         }
